@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            display:flex;
+            margin:0;
+            padding:0;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background-color: rgb(220, 185, 120);
+
+        }
+        .login{
+           
+            background-color:rgb(154, 213, 223);
+            border-radius:10px;
+            padding:30px;
+            width:300px;
+            text-align:center;
+        }
+        form{
+            display: flex; 
+            flex-direction: column;
+        }
+        input{
+            margin-bottom:10px;
+            border-radius:7px;
+            padding:8px;
+            border:2px solid red;
+        }
+        button{
+            background-color:rgb(236, 212, 169);
+            padding:8px;
+            border-radius:7px;
+             
+        }
+        button:hover{
+            background-color:orange;
+            cursor:pointer;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+        <form>
+            <input type = "email" placeholder="enter your email">
+            <input type = "password" placeholder="enter your password">
+            <button type = "submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
