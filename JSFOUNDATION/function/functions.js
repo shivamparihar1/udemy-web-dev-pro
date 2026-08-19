@@ -32,6 +32,8 @@
 // let order = processTeaOrder(makeTea);
 // console.log (order);
 
+
+ 
 // function sayHello(name){
 //     return "hello, " + name;
 // }
@@ -58,4 +60,8 @@
 // }
 
 // let a = test;
-// a();  Output: Hi
+// let result = a();
+// console.log(result);  
+
+// Output: Hi
+// undefined
